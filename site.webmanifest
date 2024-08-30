@@ -1,0 +1,43 @@
+{
+  "short_name": "WR",
+  "name": "WarRaft",
+  "description": "WebSite for WarRaft community.",
+  "id": "/",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "public/images/icons/app/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "public/images/icons/app/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "public/images/icons/app/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "screenshots": [
+    {
+      "src": "public/images/screenshots/app/1080x1440.png",
+      "type": "image/png",
+      "sizes": "1080x1440",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "public/images/screenshots/app/1500x1080.png",
+      "type": "image/png",
+      "sizes": "1500x1080",
+      "form_factor": "wide"
+    }
+  ]
+}

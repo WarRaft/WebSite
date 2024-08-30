@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e3075446-770b-4658-a98c-0459019b8350" name="warraft" url="https://venus.agency/">
+        <fileTransfer rootFolder="/var/www/html/warraft/" accessType="SFTP" host="185.67.1.222" port="22" sshConfigId="61ae9d5b-3ee2-4b2c-82f1-bba7ddde74a8" sshConfig="root@185.67.1.222:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

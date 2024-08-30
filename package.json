@@ -1,0 +1,10 @@
+{
+  "name": "xgm-next",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nazarpunk/xgm-next.git"
+  },
+  "web-types": "./web-types.json"
+}
