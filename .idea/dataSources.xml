@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MySQL - warraft" uuid="cc8252f6-89cd-4412-a60b-a6bc86a07db9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://phpmyadmin.technocore.systems:3306/</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.resource.type" value="Deployment" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="serverTimezone" value="UTC" />
+        <property name="autoReconnect" value="TRUE" />
+        <property name="enableQueryTimeouts" value="FALSE" />
+        <property name="initialTimeout" value="10" />
+        <property name="maxReconnects" value="10" />
+      </driver-properties>
+      <keep-alive timeout="10" />
+    </data-source>
+  </component>
+</project>

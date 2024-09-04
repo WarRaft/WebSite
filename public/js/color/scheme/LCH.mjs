@@ -1,7 +1,7 @@
-import {HSLUV} from './HSLUV.js'
-import {HPLUV} from './HPLUV.js'
-import {Chroma} from './utils/Chroma.js'
-import {LUV} from './LUV.js'
+import {HSLUV} from './HSLUV.mjs'
+import {HPLUV} from './HPLUV.mjs'
+import {Chroma} from './utils/Chroma.mjs'
+import {LUV} from './LUV.mjs'
 
 export class LCH extends Chroma {
     l = 0

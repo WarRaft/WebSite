@@ -1,6 +1,6 @@
-import {LUV} from './LUV.js'
-import {RGB} from './RGB.js'
-import {LAB} from './LAB.js'
+import {LUV} from './LUV.mjs'
+import {RGB} from './RGB.mjs'
+import {LAB} from './LAB.mjs'
 
 const epsilon = 0.0088564516
 const refY = 1.0

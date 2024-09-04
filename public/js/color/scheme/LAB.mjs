@@ -1,4 +1,4 @@
-import {XYZ} from './XYZ.js'
+import {XYZ} from './XYZ.mjs'
 
 export class LAB {
     l = 0

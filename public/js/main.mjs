@@ -1,6 +1,6 @@
-import './color/day-night.js'
+import './color/day-night.mjs'
 
-import {ColorScheme} from './color/color-scheme.js'
+import {ColorScheme} from './color/color-scheme.mjs'
 
 const light = new ColorScheme(0)
 const dark = new ColorScheme(1)

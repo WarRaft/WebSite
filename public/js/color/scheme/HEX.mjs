@@ -1,8 +1,8 @@
-import {RGB} from './RGB.js'
+import {RGB} from './RGB.mjs'
 
-/** @typedef {import('./LCH.js').LCH} LCH */
-/** @typedef {import('./HSLUV.js').HSLUV} HSLUV */
-/** @typedef {import('./HPLUV.js').HPLUV} HPLUV */
+/** @typedef {import('./LCH.mjs').LCH} LCH */
+/** @typedef {import('./HSLUV.mjs').HSLUV} HSLUV */
+/** @typedef {import('./HPLUV.mjs').HPLUV} HPLUV */
 
 
 const hexChars = '0123456789abcdef'

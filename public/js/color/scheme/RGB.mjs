@@ -1,5 +1,5 @@
-import {XYZ} from './XYZ.js'
-import {HEX} from './HEX.js'
+import {XYZ} from './XYZ.mjs'
+import {HEX} from './HEX.mjs'
 
 const toLinear = c => c > 0.04045 ? Math.pow((c + 0.055) / 1.055, 2.4) : c / 12.92
 

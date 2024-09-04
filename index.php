@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <base href="xgm-next">
-
     <title>WarRaft</title>
     <meta name="description" content="Make XGM great again!">
 
@@ -23,15 +21,15 @@
     <meta http-equiv="Content-Security-Policy"
           content="default-src 'self'; worker-src 'self'; style-src 'self' 'unsafe-inline' ; script-src 'self' 'nonce-rAnd0m' 'sha256-C9Pc74x5BP660fRg4HJ6AmFM9IpoprZO7TSDFKmjYzw=';">
 
-    <meta property="og:site_name" content="XGM - Next"/>
-    <meta property="og:title" content="Make XGM great again!"/>
-    <meta name="twitter:title" content="Make XGM great again!"/>
-    <meta name="description" content="Делаем новый современный дизайн для XGM!"/>
-    <meta property="og:description" content="Делаем новый современный дизайн для XGM!"/>
-    <meta name="twitter:description" content="Делаем новый современный дизайн для XGM!"/>
-    <meta property="og:image:alt" content="Делаем новый современный дизайн для XGM!"/>
+    <meta property="og:site_name" content="WarRaft"/>
+    <meta property="og:title" content="WebSite for WarRaft community!"/>
+    <meta name="twitter:title" content="WebSite for WarRaft community!"/>
+    <meta name="description" content="WarRaft Community!"/>
+    <meta property="og:description" content="WarRaft Community!"/>
+    <meta name="twitter:description" content="WarRaft Community!"/>
+    <meta property="og:image:alt" content="WarRaft Community!"/>
     <meta property="og:type" content="object"/>
-    <meta property="og:url" content="https://nazarpunk.github.io/xgm-next/"/>
+    <meta property="og:url" content="https://github.com/WarRaft/WebSite/"/>
     <meta property="og:image"
           content="https://raw.githubusercontent.com/nazarpunk/xgm-next/master/images/opengraph/repository-open-graph-template.png"/>
     <meta name="twitter:image:src"

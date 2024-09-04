@@ -1,5 +1,5 @@
-import {LCH} from './LCH.js'
-import {XYZ} from './XYZ.js'
+import {LCH} from './LCH.mjs'
+import {XYZ} from './XYZ.mjs'
 
 const refY = 1.0
 const kappa = 903.2962962

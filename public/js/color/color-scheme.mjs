@@ -1,4 +1,4 @@
-import {HSLUV} from './scheme/HSLUV.js'
+import {HSLUV} from './scheme/HSLUV.mjs'
 
 export class ColorScheme {
 

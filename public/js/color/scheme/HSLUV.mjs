@@ -1,8 +1,8 @@
-import {LCH} from './LCH.js'
-import {Chroma} from './utils/Chroma.js'
-import {HEX} from './HEX.js'
+import {LCH} from './LCH.mjs'
+import {Chroma} from './utils/Chroma.mjs'
+import {HEX} from './HEX.mjs'
 
-/** @typedef {import('./RGB.js').RGB} RGB */
+/** @typedef {import('./RGB.mjs').RGB} RGB */
 
 export class HSLUV extends Chroma {
     h = 0
