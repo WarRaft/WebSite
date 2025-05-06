@@ -1,10 +1,10 @@
 use crate::token::token_gen;
 use maud::{DOCTYPE, Markup, PreEscaped, html};
-use std::fs;
-use std::path::PathBuf;
+use std::{env, fs};
 
 pub fn render() -> Markup {
     let nonce = token_gen(16);
+    //let cache = token_gen(16);
 
     /*
     <?= Html::og(
@@ -12,9 +12,7 @@ pub fn render() -> Markup {
         description: 'WebSite for WarRaft community!',
         image: 'https://warraft.org/public/images/opengraph/repository-open-graph-template.png'
     ) ?>
-
      */
-
     html! {
         (DOCTYPE)
         html lang="ru" {
@@ -23,12 +21,12 @@ pub fn render() -> Markup {
                 meta name="viewport" content="width=device-width, initial-scale=1";
 
                 link rel="manifest" href="/cache-2/site.webmanifest";
-                meta name="msapplication-config" content="browserconfig.xml";
+                meta name="msapplication-config" content="/cache-1/browserconfig.xml";
 
-                link rel="apple-touch-icon" sizes="180x180" href="images/icons/app/apple-touch-icon.png";
-                link rel="icon" type="image/png" sizes="32x32" href="images/icons/app/favicon-32x32.png";
-                link rel="icon" type="image/png" sizes="16x16" href="images/icons/app/favicon-16x16.png";
-                link rel="mask-icon" href="images/icons/app/safari-pinned-tab.svg" color="#5bbad5";
+                link rel="apple-touch-icon" sizes="180x180" href="/cache-2/images/icons/app/apple-touch-icon.png";
+                link rel="icon" type="image/png" sizes="32x32" href="/cache-2/images/icons/app/favicon-32x32.png";
+                link rel="icon" type="image/png" sizes="16x16" href="/cache-2/images/icons/app/favicon-16x16.png";
+                link rel="mask-icon" href="/cache-2/images/icons/app/safari-pinned-tab.svg" color="#5bbad5";
 
                 link rel="stylesheet" href="css/main.css";
                 link rel="mask-icon" href="images/icons/app/safari-pinned-tab.svg" color="#5bbad5";
@@ -105,7 +103,11 @@ pub fn render() -> Markup {
 }
 
 fn script_inline(rel_path: &str, nonce: &str) -> Markup {
-    let path = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+    let path = env::current_exe()
+        .expect("Failed to get current executable path")
+        .parent()
+        .expect("Executable must be in a directory")
+        .to_path_buf()
         .parent()
         .unwrap()
         .join("public")
