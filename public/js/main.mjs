@@ -13,5 +13,5 @@ addEventListener('input', e => {
     if (e.target.type === 'color' && e.target.dataset.name !== null) scheme.setColor(e.target.dataset.name, e.target.value)
 })
 
-console.log('111')
+console.log('222')
 
