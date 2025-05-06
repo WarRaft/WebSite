@@ -1,1 +1,0 @@
-/Users/nazarpunk/IdeaProjects/WebSite/server/target/debug/server: /Users/nazarpunk/IdeaProjects/WebSite/server/src/main.rs /Users/nazarpunk/IdeaProjects/WebSite/server/src/render.rs /Users/nazarpunk/IdeaProjects/WebSite/server/src/token.rs
