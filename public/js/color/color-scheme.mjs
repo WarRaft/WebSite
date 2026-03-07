@@ -36,8 +36,6 @@ export class ColorScheme {
                 this.colors.color = color.hex.toString()
 
                 this.colors.muted = color.rgb.blend(block.rgb, isDark ? .7 : .54).hex.toString()
-
-
         }
 
         for (const [k, v] of Object.entries(this.colors)) {

@@ -1,5 +1,5 @@
 navigator.serviceWorker
-    .register('./sw.js', {scope: './'})
+    .register('/sw.js', {scope: '/'})
     .then(reg => {
         if (0) console.log('Registration succeeded. Scope is ' + reg.scope)
     })

@@ -9,9 +9,14 @@ use tokio::net::TcpListener;
 use crate::render::render;
 
 async fn request_callback(
-    _req: Request<hyper::body::Incoming>,
+    req: Request<hyper::body::Incoming>,
 ) -> Result<Response<String>, hyper::http::Error> {
-    println!("Request received");
+    let method = req.method().clone();
+    let uri = req.uri().clone();
+
+    println!("Method: {}", method);
+    println!("URI path: {}", uri.path());
+    println!("Full URI: {}", uri);
 
     Response::builder()
         .status(StatusCode::OK)
